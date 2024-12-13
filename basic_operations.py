@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python3
 
 number1=10;
 number2=5;
