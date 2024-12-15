@@ -1,11 +1,11 @@
 #!/bin/python3
 
-income = input("Enter your monthly income: ");
-income =int(income);
+monthly_income = input("Enter your monthly income: ");
+monthly_income =int(monthly_income);
 
-expenses =int(input("Enter your total monthly expenses: "));
+monthly_expenses =int(input("Enter your total monthly expenses: "));
 
-Monthly_Savings = income - expenses;
-Projected_Savings = (Monthly_Savings * 12 + (Monthly_Savings * 12 * 0.05));
-print(f"Your monthly savings are ${Monthly_Savings}.");
+monthly_savings = float(monthly_income - monthly_expenses);
+Projected_Savings = (monthly_savings * 12 + (monthly_savings * 12 * 0.05));
+print(f"Your monthly savings are ${monthly_savings}.");
 print(f"Projected savings after one year, with interest, is: ${int(Projected_Savings)}."); 
