@@ -7,23 +7,23 @@ try:
 
 	match (operation):
 		case '+':
-			result = num1 + num2;
-			print(f"The result is {result}."); 
+			result = num1 + num2
+			print(f"The result is {result}.") 
 		case '-':
-			result = num1 - num2;
-			print(f"The result is {result}.");
+			result = num1 - num2
+			print(f"The result is {result}.")
 		case '*':
-			result = num1 * num2;
+			result = num1 * num2
 			print(f"The result is {result}.")
 		case '/':
 			if num2 == 0:
-				print("Cannot divide by zero.");
+				print("Cannot divide by zero.")
 			else:
-				result = num1 / num2;
-				print(f"The result is {result}.");
+				result = num1 / num2
+				print(f"The result is {result}.")
 		case _:
-			print("Invalid number detected");
+			print("Invalid number detected")
 
 except ValueError:
-			print("Enter valid number only and non-zero as denominator.");
+			print("Enter valid number only and non-zero as denominator.")
 
