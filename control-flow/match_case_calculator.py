@@ -3,7 +3,7 @@
 try:
 	num1 = int(input("Enter the first number: "));
 	num2 = int(input("Enter the second number: "));
-	operator = input("Choose the operation (+, -, *, /): ")
+	operation = input("Choose the operation (+, -, *, /): ")
 
 	match (operation):
 		case '+':
@@ -22,7 +22,7 @@ try:
 				result = num1 / num2
 				print(f"The result is {result}.")
 		case _:
-			print("Invalid number detected")
+			print("Invalid operator detected")
 
 except ValueError:
 			print("Enter valid number only and non-zero as denominator.")
