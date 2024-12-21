@@ -6,7 +6,7 @@ try:
 	operation = input("Choose the operation (+, -, *, /): ")
 
 
-	match (operation):
+	match operation:
 		case '+':
 			result = num1 + num2
 			print(f"The result is {result}.") 
