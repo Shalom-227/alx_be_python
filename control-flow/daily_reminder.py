@@ -7,13 +7,10 @@ time_bound=input("Is it time-bound? (yes/no): ")
 match priority:
 	case "high":
 		message=f"Reminder: '{task}' is a high priority task" 
-		print()
 	case "medium":
-		message=f"Note: '{task}' is a medium priority task"
-		print()
+		message=f"Reminder: '{task}' is a medium priority task"
 	case "low":
-		message=f"Note: '{task}' is a low priority task" 
-		print()
+		message=f"Reminder: '{task}' is a low priority task" 
 	case _:
 		print(f"Invalid input. Enter priority level (high/medium/low")
 if time_bound=='yes':
