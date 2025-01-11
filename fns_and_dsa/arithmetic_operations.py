@@ -1,6 +1,6 @@
 #!/bin/python3
 
-def perform_operation(num1:float, num2:float,operation):
+def perform_operation(num1, num2 ,operation):
 	match operation:
 		case 'add':
 			return num1 + num2
@@ -17,7 +17,3 @@ def perform_operation(num1:float, num2:float,operation):
 		case _:
 			return "Invalid"
 
-#num1= float(input("num1: "))
-#num2= float(input("num2: "))
-#operator= input("operator: ")
-#print(perform_operation(num1,num2,operator))
