@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
 		case 'multiply':
 			return num1 * num2
 		case 'divide':
-			while num2 == 0:
+			if num2 == 0:
 				print("Numerator cannot be 0.")
 				num2= float(input("Enter the second number: "))
 			else:
