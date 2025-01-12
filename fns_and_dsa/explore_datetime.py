@@ -7,7 +7,9 @@ def display_current_datetime():
 	current_date = datetime.now()
 	return current_date.replace(microsecond=0)
 
-print("Current date and time: ", display_current_datetime())
+current_date = datetime.now()
+formatted_current_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+print("Current date and time: ", formatted_current_date)
 
 number_of_days = int(input("Enter the number of days to add to the current date: "))
 
