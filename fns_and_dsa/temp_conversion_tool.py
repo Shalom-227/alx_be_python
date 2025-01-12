@@ -19,4 +19,5 @@ if temperature_convention == 'F':
 elif temperature_convention == 'C':
 	print(f"{temperature}°C is {convert_to_fahrenheit(temperature)}°F")
 else:
-	print("Enter valid temperature and unit")
+	print("	
+Invalid temperature. Please enter a numeric value.")
